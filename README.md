@@ -18,6 +18,18 @@ Add the following code in package.json to use nodemon
 "dev": "nodemon index"
 },
 
+## Heroku Deployment
+
+`heroku login`
+
+`heroku create`
+
+`git push heroku main`
+
+`heroku open`
+
+Link : https://lit-scrubland-52003.herokuapp.com/
+
 ### `node filename`
 
 Command to run the code in the terminal
