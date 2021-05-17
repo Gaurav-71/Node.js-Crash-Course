@@ -1,6 +1,6 @@
 # Node.js-Crash-Course
 
-Video Link : https://www.youtube.com/watch?v=fBNz5xF-Kx4&amp;list=PLillGF-RfqbZ2ybcoD2OaabW2P7Ws8CWu&amp;index=1
+Reference Video Link : https://www.youtube.com/watch?v=fBNz5xF-Kx4&amp;list=PLillGF-RfqbZ2ybcoD2OaabW2P7Ws8CWu&amp;index=1
 
 ### `npm init`
 
@@ -18,6 +18,10 @@ Add the following code in package.json to use nodemon
 "dev": "nodemon index"
 },
 
+### `node filename`
+
+Command to run the code in the terminal
+
 ## Heroku Deployment
 
 `heroku login`
@@ -29,7 +33,3 @@ Add the following code in package.json to use nodemon
 `heroku open`
 
 Link : https://lit-scrubland-52003.herokuapp.com/
-
-### `node filename`
-
-Command to run the code in the terminal
