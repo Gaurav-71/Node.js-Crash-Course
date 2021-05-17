@@ -11,6 +11,13 @@ Used to create a package.json file for project
 Adds a dev dependency to automatically restart server
 -D flag is used to indicate it is a Dev dependency only
 
+Add the following code in package.json to use nodemon
+
+"scripts": {
+"start": "node index",
+"dev": "nodemon index"
+},
+
 ### `node filename`
 
 Command to run the code in the terminal
